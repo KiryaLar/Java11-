@@ -21,6 +21,4 @@ Enum с типом топлива\
 
 ## Диаграмма Архитектуры
 
-![Диаграмма](path/to/diagram.png)
-
-Или ссылка на диаграмму: [Диаграмма в draw.io](https://app.diagrams.net/)
+Cсылка на диаграмму: (https://drive.google.com/file/d/1qMR3G1bc-qqw3K2xDfdWF18o3j0jlkXd/view?usp=sharing)
