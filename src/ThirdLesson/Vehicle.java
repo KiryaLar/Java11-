@@ -33,11 +33,11 @@ public abstract sealed class Vehicle permits Plane,Bicycle,Boat,Car,SuperCar{
         return peopleCapacity;
     }
 
-    public int getWheelsNumber() throws NonWheeledTransportException {
+    public int getWheelsNumber() throws NonWheeledVehicleException {
         if (hasWheels) {
             return wheelsNumber;
         } else {
-            throw new NonWheeledTransportException("This vehicle hasn't any wheels");
+            throw new NonWheeledVehicleException("This vehicle hasn't any wheels");
         }
     }
 }
