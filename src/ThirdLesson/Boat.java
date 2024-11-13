@@ -7,11 +7,6 @@ public non-sealed class Boat extends Vehicle implements Swimmable{
     }
 
     @Override
-    public void swim() {
-        System.out.println("Я могу плавать");
-    }
-
-    @Override
     public void move() {
         swim();
     }

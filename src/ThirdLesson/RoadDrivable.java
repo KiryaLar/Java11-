@@ -1,5 +1,7 @@
 package ThirdLesson;
 
 public interface RoadDrivable {
-    void drive();
+    default void drive() {
+        System.out.println("Я могу ездить");
+    }
 }

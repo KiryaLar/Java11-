@@ -7,11 +7,6 @@ public final class Bicycle extends Vehicle implements RoadDrivable {
     }
 
     @Override
-    public void drive() {
-        System.out.println("Я могу ехать");
-    }
-
-    @Override
     public void move() {
         drive();
     }
