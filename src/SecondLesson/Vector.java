@@ -30,9 +30,17 @@ public class Vector {
 
     public double calculateAngle(Vector vector) {
         double lengths = getLength() * vector.getLength();
+
         if (lengths == 0) {
-            throw new ArithmeticException("Нулевой вектор");
+            //Странная херня=)
+            // По ТЗ надо было, чтобы без ошиок все закончилось
+            try {
+                throw new ArithmeticException("Нулевой вектор");
+            } catch (ArithmeticException e) {
+                e.getMessage();
+            }
         }
+
         return Math.acos(scalarProduct(vector) / (lengths));
     }
 
