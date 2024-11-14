@@ -7,7 +7,7 @@ public class Task1 {
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in);) {
             System.out.println("Введите размер массива");
-            int capacity = getValidatedInt(scanner);
+            int capacity = getArraySize(scanner);
 
             System.out.println("Введите нижнюю и верхнюю границы генерации случайных чисел");
 
