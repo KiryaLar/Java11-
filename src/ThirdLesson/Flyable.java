@@ -1,5 +1,7 @@
 package ThirdLesson;
 
 public interface Flyable {
-    void fly();
+    default void fly() {
+        System.out.println("Я могу летать");
+    }
 }

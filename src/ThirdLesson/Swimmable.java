@@ -1,5 +1,7 @@
 package ThirdLesson;
 
 public interface Swimmable {
-    void swim();
+    default void swim() {
+        System.out.println("Я могу плавать");
+    }
 }

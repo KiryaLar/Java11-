@@ -6,10 +6,6 @@ public non-sealed class Car extends Vehicle implements RoadDrivable{
         super(brand, fuelType, peopleCapacity, wheelsNumber);
     }
 
-    @Override
-    public void drive() {
-        System.out.println("Я могу ехать");
-    }
 
     @Override
     public void move() {
